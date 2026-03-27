@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+.email-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.email-body a {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+.email-body blockquote {
+  border-left: 2px solid #ccc;
+  margin: 8px 0;
+  padding: 0 12px;
+  color: #666;
+}
+
+.email-row:hover {
+  box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  z-index: 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bdc1c6;
+}
